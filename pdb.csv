@@ -1,0 +1,10 @@
+_id,fname,lname,bpoint,dpoint,operator,vehnum,fdes,atime
+ObjectId("5c68852709d4fb2280e6b130"),Robin,Thomas,SRM IST,Madiwala,OTT,PY12BG8270,Ramagondanahalli,1200
+ObjectId("5c68852709d4fb2280e6b131"),Jayraj,Roshan,SRM IST,Madiwala,OTT,PY12BG8271,Ramagondanahalli,1200
+ObjectId("5c68852709d4fb2280e6b132"),Mayank,Mrinal,SRM IST,Madiwala,OTT,PY12BG8272,Ramagondanahalli,1200
+ObjectId("5c68852709d4fb2280e6b133"),Abhishikta,Panja,SRM IST,Madiwala,OTT,PY12BG8273,Ramagondanahalli,1200
+ObjectId("5c68852709d4fb2280e6b134"),Hetan,Naidu,Tambaram,Elec_City,OTT,PY12BG8274,Tubarahalli,1400
+ObjectId("5c68852709d4fb2280e6b135"),Sharad ,Iyengar,Tambaram,Elec_City,OTT,PY12BG8275,Tubarahalli,1630
+ObjectId("5c68852709d4fb2280e6b136"),Raj,Buch,Tambaram,Elec_City,OTT,PY12BG8276,Bobmanahalli,500
+ObjectId("5c68852709d4fb2280e6b137"),Sai ,Meka,Potheri,Majestic,OTT,PY12BG8277,Baiyyappanahali,2100
+ObjectId("5c68852709d4fb2280e6b138"),Pravin ,Dora,Potheri,Silk_Board,OTT,PY12BG8278,Devanahalli,800

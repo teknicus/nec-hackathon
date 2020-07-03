@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         .center {
+         margin: auto;
+         width: 30.67%;
+         }
+      </style>
+      <style>
+         .center1 {
+         margin: auto;
+         width: 10.5%;
+         }
+      </style>
+      </style>
+      <style>
+         .center2 {
+         margin: auto;
+         width: 100%;
+         }
+      </style>
+      <style>
+         .center 3{
+         margin: auto;
+         width: 85%;
+         }
+      </style>
+      <script type="text/javascript" src="index.js"></script>
+      <!-- CSS styles for standard search box with placeholder text-->
+      <link rel="stylesheet" href="index.css">
+   </head>
+   <body background="back.jpg">
+      <text>
+         <center>
+         <font face="Caveat" size=10> AUTOMATE</font>
+         <center>
+      </text>
+      <br><br><br><br><br>
+      <div class="center">
+         <ul id="drop-loc">
+            <li>
+               <a href="#">Current Location</a>
+               <ul>
+                  <li><a onclick= "l1()">l1</a></li>
+                  <li><a onclick= "l2()">l2</a></li>
+                  <li><a onclick= "l3()">l3</a></li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+      
+      <div class="center1">
+         <ul id="drop-dis">
+            <li>
+               <a href="#">Preferred Distance</a>
+               <ul>
+                  <li><a onclick="km2()">2Km</a></li>
+                  <li><a onclick="km5()">5Km</a></li>
+                  <li><a onclick="km10()">10Km</a></li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+
+      <div class="center2">
+         <ul id="drop-time">
+            <li>
+               <a href="#">Preferred Time</a>
+               <ul>
+                  <li><a onclick="t0()">00:00-02:00</a></li>
+                  <li><a onclick="t2()">02:00-04:00</a></li>
+                  <li><a onclick="t4()">04:00-06:00</a></li>
+                  <li><a onclick="t6()">06:00-08:00</a></li>
+                  <li><a onclick="t8()">08:00-10:00</a></li>
+                  <li><a onclick="t10()">10:00-12:00</a></li>
+                  <li><a onclick="t12()">12:00-14:00</a></li>
+                  <li><a onclick="t14()">14:00-16:00</a></li>
+                  <li><a onclick="t16()">16:00-18:00</a></li>
+                  <li><a onclick="t18()">18:00-20:00</a></li>
+                  <li><a onclick="t20()">20:00-22:00</a></li>
+                  <li><a onclick="t22()">22:00-00:00</a></li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <p id="submit"></p>
+         <br><br><br><br><br>
+         <button type="button" onclick="send()" class="center3">Apply</button>
+      </div>
+   </body>
+</html>

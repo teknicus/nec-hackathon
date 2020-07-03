@@ -1,0 +1,109 @@
+<html>
+<head>
+    <script src = "/socket.io/socket.io.js"></script>
+    <script src = "/index.js"></script>
+<style>
+body {
+  font-family: Arial;
+
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+
+}
+
+.right {
+  right: 0;
+
+}
+
+.centered {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+</style>
+</head>
+<body background="back.jpg">
+<text><center><font size=10>
+Welcome to AUTOMATE
+</font></center></text>
+<br><br><br><br>
+<div class="split left">
+  <div class="centered">
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <h2>Sign Up</h2>
+	<form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+         <div>
+            <label align="left">Name:</label>
+            <input type="text" size="25" id="reg_name"/>
+         </div>
+         <br>
+         <div>
+            <label>Contact No. :</label>
+            <input type="text" size="25" id="reg_phno"/>
+         </div>
+         <br>
+         <div>
+            <label>License No. :</label>
+            <input type="text" size="25" id="reg_lino" />
+         </div>
+         <br>w
+         <div>
+            <label>ID-Proof:</label>
+            <input type="text" size="25" id="reg_idp"/>
+         </div>
+         <br>
+         <div>
+            <label>Username:</label>
+            <input type="text" size="25" id="reg_uname"/>
+         </div>
+         <br>
+         <div>
+            <label>Password:</label>
+            <input type="text" size="25" id="reg_pass"/>
+         </div>
+         <br>
+        <button type="button" onclick="register()" class="center3">Register</button>
+      </form>
+  </div>
+</div>
+
+<div class="split right">
+  <div class="centered">
+	<br><br><br><br><br><br>
+    <h2>Sign In</h2>
+	
+	  <br>
+      <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+         <div>
+            <label>Username:</label>
+            <input type="text" size="25" id="login_uname"/>
+         </div>
+         <br>
+         <div>
+            <label>Password:</label>
+            <input type="text" size="25" id="login_pass"/>
+         </div>
+         <br>
+          <button type="button" onclick="login()" class="center3">Login</button>
+      </form>
+  </div>
+</div>
+</body>
+</html>

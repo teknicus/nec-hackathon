@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <script src = "/socket.io/socket.io.js"></script>
+      <style>
+         .center {
+         margin: auto;
+         width: 10%;
+         }
+      </style>
+      <style>
+         .center1 {
+         margin: auto;
+         width: 10.5%;
+         }
+      </style>
+      </style>
+      <style>
+         .center2 {
+         margin: auto;
+         width: 8.5%;
+         }
+      </style>
+      <style>
+         .center 3{
+         margin: auto;
+         width: 9.5%;
+         }
+      </style>
+      <script type="text/javascript" src="index.js"></script>
+      <!-- CSS styles for standard search box with placeholder text-->
+      <link rel="stylesheet" href="index.css">
+   </head>
+   <body background="back.jpg">
+      <text>
+         <center>
+         <font face="Caveat" size=10> AUTOMATE</font>
+         <center>
+      </text>
+      <br><br><br><br><br>
+      <div class="center">
+         <ul id="drop-loc">
+            <li>
+               <a href="#">Current Location</a>
+               <ul>
+                  <li><a class="waves-effect waves-light btn" onclick= "l1()">Marthahalli</a></li>
+                  <li><a class="waves-effect waves-light btn" onclick= "l2()">Whitefield</a></li>
+                  <li><a class="waves-effect waves-light btn" onclick= "l3()">Indranagar</a></li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+      <br><br><br><br><br><br><br><br>
+      <div class="center1">
+         <ul id="drop-dis">
+            <li>
+               <a href="#">Preferred Distance</a>
+               <ul>
+                  <li><a onclick="km1()">1Km</a></li>
+                  <li><a onclick="km2()">2Km</a></li>
+                  <li><a onclick="km5()">5Km</a></li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+      <br><br><br><br><br><br><br><br>
+      <div class="center2">
+         <ul id="drop-time">
+            <li>
+               <a href="#">Preferred Time</a>
+               <ul>
+                  <li><a onclick="t0()">00:00-02:00</a></li>
+                  <li><a onclick="t2()">02:00-04:00</a></li>
+                  <li><a onclick="t4()">04:00-06:00</a></li>
+                  <li><a onclick="t6()">06:00-08:00</a></li>
+                  <li><a onclick="t8()">08:00-10:00</a></li>
+                  <li><a onclick="t10()">10:00-12:00</a></li>
+                  <li><a onclick="t12()">12:00-14:00</a></li>
+                  <li><a onclick="t14()">14:00-16:00</a></li>
+                  <li><a onclick="t16()">16:00-18:00</a></li>
+                  <li><a onclick="t18()">18:00-20:00</a></li>
+                  <li><a onclick="t20()">20:00-22:00</a></li>
+                  <li><a onclick="t22()">22:00-00:00</a></li>
+               </ul>
+            </li>
+         </ul>
+      </div>
+      <div>
+         <p id="submit"></p>
+         <br><br><br><br><br>
+         <button type="button" onclick="send()" class="center3">Apply</button>
+      </div>
+      <div><ul id="sbox">
+
+      </ul></div>
+   </body>
+</html>
